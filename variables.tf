@@ -5,5 +5,5 @@ variable "location" {
 
 variable "base_name" {
   type    = string
-  default = "ghdemo"   # used to build names; final name will include random suffix
+  default = "ghdemo"   # used to build names; final name will include random suffix, testing 2
 }
