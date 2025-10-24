@@ -9,5 +9,5 @@ variable "base_name" {
 }
 variable "subscription_id" {
   type        = string
-  description = "Azure subscription ID"
+  description = "Azure subscription ID" #for testing
 }

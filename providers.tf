@@ -10,6 +10,6 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = var.subscription_id
+  subscription_id = var.subscription_id #for testing
   # Authentication will be done by environment variables (ARM_*), or az cli locally.
 }
